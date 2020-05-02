@@ -6,8 +6,8 @@ The scanning gradient Fourier transform (SGFT) method incorporates gradient anal
 Instructions for using Scanning Gradient Fourier Transform analysis code:
 
 # Extract all files into the same directory
-# Run sft_guifig.m in MATLAB
-This is the GUI for running analysis on the striated images.  Use the "Add Image File(s)..." button to start loading grayscale TIFs for analysis.  You may set up analysis of one or several images at a time.
+# Run sft_main_v026.m in MATLAB
+This is the UI for running analysis on the striated images.  Use the "Add Image File(s)..." button to start loading grayscale TIFs for analysis.  You may set up analysis of one or several images at a time.
 # Set the Microns/Pixel for all images
 Select an image to display a preview.  If the scale is known, input it into the Microns/Pixel box.  If the image contains a scalebar, you may use the "Find From Scalebar..." button to open a dialog that utilizes the scalebar to determine the image scale.  Under the Scalebar dialog, place point 1 and 2 on opposite ends of the scalebar.  It is recommended to zoom in on the scalebar to make these selections as accurate as possible.  Once these points are selected, select "Compute" and type the length of the scalebar, in microns, in the input box.  
 If all images were taken using the same objective/microscope settings, it is likely that this ratio is the same and you may copy the determined scale to all other images using the "Copy to All" button.
